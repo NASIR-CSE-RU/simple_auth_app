@@ -1,0 +1,27 @@
+{
+  "name": "softzino-test",
+  "version": "0.0.0",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview --port 4173"
+  },
+  "dependencies": {
+    "@jobinsjp/vue3-datatable": "^1.0.15",
+    "@popperjs/core": "^2.11.5",
+    "@vuelidate/core": "^2.0.0-alpha.42",
+    "@vuelidate/validators": "^2.0.0-alpha.30",
+    "axios": "^0.27.2",
+    "bootstrap": "^5.1.3",
+    "bootstrap-vue-datatable": "^1.0.7",
+    "moment": "^2.29.3",
+    "vue": "^3.2.37",
+    "vue-axios": "^3.4.1",
+    "vue-router": "^4.0.16",
+    "vue3-easy-data-table": "^1.2.27"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^2.3.3",
+    "vite": "^2.9.12"
+  }
+}
