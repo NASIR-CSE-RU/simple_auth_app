@@ -2,20 +2,17 @@
 
 This template should help get you started developing with Vue 3 in Vite.
 
-## Recommended IDE Setup
-
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
 ## Project Setup
 
 ```sh
 npm install
 ```
-
+### Environment  Variable Set
+In env file set app_key and app_secret that is get from laravel api set up time.
+   Example:
+   VITE_API_URL= http://localhost/simple_auth_api/api/v1 (What is your api url)
+   VITE_API_KEY= 1 (will get from api readme and also get from database oauth_clients table)
+   VITE_API_SECRET= K1goVJci9k0GY2ksrUZkSzLIikN4BTlP7H7sfyXd (will get from api readme and also get from database oauth_clients table)
 ### Compile and Hot-Reload for Development
 
 ```sh
